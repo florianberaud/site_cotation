@@ -16,6 +16,15 @@ header {
   text-align: center;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
 h1 {
   background-color: white;
   color: #000000;
