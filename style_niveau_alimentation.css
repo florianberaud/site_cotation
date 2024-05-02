@@ -100,26 +100,29 @@ h2 {
 }
 
 .container {
-    max-width: 800px;
-    margin-left: 20px;
+    max-width: 1000px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
+    
 }
 
 
-.image{
+.image-container{
     display: flex;
     float: right;
+    margin-left: 20px;
     width: 80px;
     height: 80px;
 }
 
-.text-section-1,
-.text-section-2,
-.text-section-3,
-.text-section-4 {
+.text-section-1 p span,
+.text-section-2 p span,
+.text-section-3 p span,
+.text-section-4 p span  {
     font-size: 16px;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 20px;
 }
 
@@ -128,19 +131,22 @@ h2 {
         font-size: 18px;
     }
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
-    .image{
+    .image-container{
         width: 60px;
         height: 60px;
-    }    
+        display: flex;
+    }   
 
     .text-section-1,
     .text-section-2,
     .text-section-3,
     .text-section-4 {
         font-size: 14px;
+        text-align: justify;
+        display: block;
     }
 }
 
@@ -149,16 +155,19 @@ h2 {
         font-size: 18px;
     }
     
-    .image{
+    .image-container{
         width: 50px;
         height: 50px;
-    }  
+        float: right;
+    }
+ 
 
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4 {
+    .text-section-1 p span,
+    .text-section-2 p span,
+    .text-section-3 p span,
+    .text-section-4 p span {
         font-size: 14px;
+        text-align: justify;
     }
 }
 
@@ -168,19 +177,33 @@ h2 {
         text-align: center;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
-    .image{
+    .image-container{
         width: 40px;
         height: 40px;
-    }  
+        float: right;
+    }
+    .text-section-1 p span,
+    .text-section-2 p span,
+    .text-section-3 p span,
+    .text-section-4 p span{
+        font-size: 10px;
+        text-align: justify;
+    
+        
+    }
 
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
+    .text-section-1 ,
+    .text-section-2 ,
+    .text-section-3 ,
     .text-section-4 {
-        font-size: 12px;
+        font-size: 10px;
+        text-align: justify;
+        margin: inherit;
+    
+        
     }
 }
 
@@ -192,10 +215,19 @@ h2 {
     h2 {
         font-size: 1rem;
     }
+
+    .image-container{
+        width: 40px;
+        height: 40px;
+        float: right;
+    }
+
     .text-section-1,
     .text-section-2,
     .text-section-3,
     .text-section-4 {
         font-size: 12px;
+        text-align: justify;
+        padding: 5px;
     }
 }
