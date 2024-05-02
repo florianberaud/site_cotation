@@ -16,6 +16,7 @@ header {
   text-align: center;
 }
 
+
 li{
   list-style: none;
 }
@@ -119,6 +120,7 @@ h1 {
   padding-left: 20px;
   margin-bottom: 16px;
   margin-top: 16px;
+  margin-left: 20px;
 }
 
 .submenu li{
@@ -141,6 +143,9 @@ h1 {
   .menu-icon {
       font-size: 20px;
   }
+
+  
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -155,8 +160,11 @@ h1 {
   }
 
   .menu-item {
-      margin: 5px 0;
+      margin: 50px 0;
   }
+
+  
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -171,6 +179,8 @@ h1 {
   }
 
   .menu-item {
-      margin: 5px 0;
+      margin: 50px 0;
   }
+
+  
 }
