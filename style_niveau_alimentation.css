@@ -137,7 +137,7 @@ h2 {
     .image-container{
         width: 60px;
         height: 60px;
-        display: flex;
+        float: right;
     }   
 
     .text-section-1,
@@ -168,6 +168,16 @@ h2 {
     .text-section-4 p span {
         font-size: 14px;
         text-align: justify;
+        margin: inherit;
+    }
+
+    .text-section-1,
+    .text-section-2,
+    .text-section-3,
+    .text-section-4 {
+        font-size: 14px;
+        text-align: justify;
+        margin: inherit;
     }
 }
 
@@ -189,8 +199,9 @@ h2 {
     .text-section-2 p span,
     .text-section-3 p span,
     .text-section-4 p span{
-        font-size: 10px;
+        font-size: 11px;
         text-align: justify;
+        margin: inherit;
     
         
     }
@@ -199,7 +210,7 @@ h2 {
     .text-section-2 ,
     .text-section-3 ,
     .text-section-4 {
-        font-size: 10px;
+        font-size: 11px;
         text-align: justify;
         margin: inherit;
     
