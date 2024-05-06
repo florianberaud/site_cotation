@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bfbeda;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ajout de justification centrée */
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.retour {
+    margin-top: 0px;
+    display: flex; 
+    align-items: center; 
+}
+
+.retour img {
+    width: 50px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .retour img {
+        width: 40px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .retour img {
+        width: 20px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .retour img {
+        width: 20px;
+        padding-right: 10px;
+    }
+}
+
+h2 {
+    background-color: #484495;
+    color: #ffffff;
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 7rem;
+
+}
+
+.bouton {
+    height: 80px;
+    width: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    margin-left: 10px;
+    bottom: 20px;
+    cursor: pointer;
+}   
+
+
+.icon {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+
+@media only screen and (max-width:750px){
+    .bouton {
+        height: 35px;
+        width: 35px;
+    }
+    .icon {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.sous-titre {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin-right: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-section-1,
+.text-section-2,
+.text-section-3 {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 2rem; 
+    }
+    .text-section-1,
+    .text-section-2,
+    .text-section-3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 12px;
+        text-align: center; 
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .text-section-1,
+    .text-section-2,
+    .text-section-3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    h1 {
+        font-size: 12px;
+        text-align: center; 
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .text-section-1,
+    .text-section-2,
+    .text-section-3 {
+        font-size: 16px;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
