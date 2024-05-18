@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #d1edf9;
+    background-color: #f6c7b0;
 }
 
 header {
@@ -51,6 +51,7 @@ h1 {
     }
 }
 
+
 /*bouton retour*/
 
 h2 {
@@ -64,7 +65,7 @@ h2 {
 .retour {
     display: flex;
     align-items: center;
-    background-color: #7accef;
+    background-color: #931a7e;
 }
 
 .bouton {
@@ -91,26 +92,12 @@ h2 {
     cursor: pointer;
 }
 
-/* fin bouton retour*/   
-
+/* fin bouton retour*/
 .icon {
     width: 50px;
 }
 
-h3 {
-    color: white;
-    background-color: #7accef;
-    padding: 5px;
-}
-
-h4 {
-    color: white;
-    background-color: #7accef;
-    padding: 5px;
-}
-
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width:750px) {
     .bouton {
         height: 35px;
         width: 35px;
@@ -132,31 +119,85 @@ h4 {
     margin-right: 15px;
 }
 
+/*debut container*/
+
 .container {
-    max-width: 1000px;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: justify;
-    
-}
-
-
-.image-container{
-    display: flex;
-    float: right;
+    max-width: 800px;
     margin-left: 20px;
-    width: 80px;
-    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.text-section-1 p span,
-.text-section-2 p span,
-.text-section-3 p span,
-.text-section-4 p span  {
-    font-size: 16px;
-    text-align: justify;
-    margin-bottom: 20px;
+.text-section-1 {
+    display: flex;
+    align-items: center;
 }
+
+.text-section-1 img.hand {
+    margin-right: 10px;
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.text-section-1 p {
+    margin: 0;
+    font-size: 22px;
+    color: #931a7e;
+}
+
+
+.text-section-2 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.text-section-2 img.level_of_cotation {
+    max-width: 100%; 
+    height: auto;  
+}
+
+
+.text-section-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-section-3 img.hand {
+    margin-right: 10px;
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+.text-section-3 p {
+    margin: 0;
+    font-size: 22px;
+    color: #931a7e;
+}
+
+.text-section-4 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.text-section-4 img.level_of_cotation {
+    max-width: 100%; 
+    height: auto;  
+}
+
+
+/* fin container*/
+
 
 @media screen and (max-width: 900px) {
     h1 {
@@ -166,20 +207,11 @@ h4 {
         font-size: 2rem;
     }
 
-    .image-container{
+    .image{
         width: 60px;
         height: 60px;
-        float: right;
-    }   
+    }    
 
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4 {
-        font-size: 14px;
-        text-align: justify;
-        display: block;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -187,43 +219,17 @@ h4 {
         font-size: 18px;
     }
     
-    h2 {
-        font-size: 2rem;
-        margin-left: 35px;
-    }
-
-    .image-container{
+    .image{
         width: 50px;
         height: 50px;
-        float: right;
-    }
- 
+    } 
 
-    .text-section-1 p span,
-    .text-section-2 p span,
-    .text-section-3 p span,
-    .text-section-4 p span,
-    .text-section-5 p span,
-    .text-section-6 p span,
-    .text-section-7 p span,
-    .text-section-8 p span {
-        font-size: 14px;
-        text-align: justify;
-        margin: inherit;
-    }
+    .icon {
+        width: 18px;
+        height: 18px;
+    } 
 
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4,
-    .text-section-5, 
-    .text-section-6, 
-    .text-section-7, 
-    .text-section-8  {
-        font-size: 14px;
-        text-align: justify;
-        margin: inherit;
-    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -233,42 +239,23 @@ h4 {
     }
     h2 {
         font-size: 2rem;
-        margin-left: 35px;
     }
 
-    .image-container{
+    .image{
         width: 40px;
         height: 40px;
-        float: right;
-    }
-    .text-section-1 p span,
-    .text-section-2 p span,
-    .text-section-3 p span,
-    .text-section-4 p span,
-    .text-section-5 p span,
-    .text-section-6 p span,
-    .text-section-7 p span,
-    .text-section-8 p span{
-        font-size: 11px;
-        text-align: justify;
-        margin: inherit;
-    
-        
     }
 
-    .text-section-1 ,
-    .text-section-2 ,
-    .text-section-3 ,
-    .text-section-4,
-    .text-section-5, 
-    .text-section-6, 
-    .text-section-7, 
-    .text-section-8  {
-        font-size: 11px;
+    .icon {
+        width: 14px;
+        height: 14px;
+
+    }
+    .text-section-1 p,
+    .text-section-3 p {
+        margin: 0;
+        font-size: 22px;
         text-align: justify;
-        margin: inherit;
-    
-        
     }
 }
 
@@ -278,22 +265,21 @@ h4 {
         text-align: center; 
     }
     h2 {
-        font-size: 1.5rem;
-        margin-left: 35px;
+        font-size: 1rem;
     }
 
-    .image-container{
-        width: 40px;
-        height: 40px;
-        float: right;
-    }
-
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4 {
-        font-size: 12px;
+    .text-section-1 p,
+    .text-section-3 p {
+        margin: 0;
+        font-size: 15px;
         text-align: justify;
-        padding: 5px;
     }
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 10px;
+    float: left;
 }
