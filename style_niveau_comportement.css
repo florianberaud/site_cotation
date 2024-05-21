@@ -19,62 +19,79 @@ h1 {
     font-size: 12px;
 }
 
-.retour {
+.menu {
     margin-top: 0px;
     display: flex; /* Utilisation de flexbox */
     align-items: center; /* Alignement vertical des éléments enfants */
 }
 
-.retour img {
+.menu img {
     width: 50px;
     height: auto;
 }
 
 @media screen and (max-width: 600px) {
-    .retour img {
+    .menu img {
         width: 40px;
         padding-right: 10px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .retour img {
+    .menu img {
         width: 20px;
         padding-right: 10px;
     }
 }
 
 @media screen and (max-width: 300px) {
-    .retour img {
+    .menu img {
         width: 20px;
         padding-right: 10px;
     }
 }
 
+/*bouton retour*/
+
 h2 {
-    background-color: #9fc64b;
     color: #ffffff;
     margin: 0;
     padding: 40px 0;
     text-align: center;
+    margin: 0; 
 }
 
+.retour {
+    display: flex;
+    align-items: center;
+    background-color: #9fc64b;
+}
 
+.bouton {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
 
-.bouton{
-    height: 80px;
-    width: 80px;
+.icon.retour {
+    height: 24px;
+    width: 24px;
+    padding: 5px;
     background: white;
     border-radius: 50%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     right: 20px;
     margin-left: 10px;
     bottom: 20px;
     cursor: pointer;
-    vertical-align: middle;
-}   
+}
+
+/* fin bouton retour*/
 
 .icon{
     width: 50px;
@@ -95,7 +112,7 @@ h2 {
 .sous-titre {
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -105,7 +122,6 @@ h2 {
 
 .container {
     max-width: 1000px;
-    margin-right: 20px;
     margin-bottom: 20px;
     padding: 20px;
     text-align: justify;
@@ -159,6 +175,11 @@ h2 {
         font-size: 18px;
     }
     
+    h2 {
+        font-size: 2rem;
+        margin-left: 35px;
+    }
+
     .image-container{
         width: 50px;
         height: 50px;
@@ -191,7 +212,8 @@ h2 {
         text-align: center;
     }
     h2 {
-        font-size: 1rem;
+        font-size: 2rem;
+        margin-left: 35px;
     }
 
     .image-container{
@@ -222,13 +244,14 @@ h2 {
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 350px) {
     h1 {
         font-size: 12px;
         text-align: center; 
     }
     h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-left: 35px;
     }
 
     .image-container{
