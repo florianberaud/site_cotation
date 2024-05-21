@@ -23,50 +23,67 @@ h1 {
     font-size: 12px;
 }
 
-.retour {
+.menu {
     margin-top: 0px;
     display: flex; 
     align-items: center; 
 }
 
-.retour img {
+.menu img {
     width: 50px;
     height: auto;
 }
 
 @media screen and (max-width: 600px) {
-    .retour img {
+    .menu img {
         width: 40px;
         padding-right: 10px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .retour img {
+    .menu img {
         width: 20px;
         padding-right: 10px;
     }
 }
 
 @media screen and (max-width: 300px) {
-    .retour img {
+    .menu img {
         width: 20px;
         padding-right: 10px;
     }
 }
 
+/*bouton retour*/
+
 h2 {
-    background-color: #006CB6;
     color: #ffffff;
     margin: 0;
-    font-size: 2rem!important;
     padding: 40px 0;
     text-align: center;
+    margin: 0; 
+}
+
+.retour {
+    display: flex;
+    align-items: center;
+    background-color: #006CB6;
 }
 
 .bouton {
-    height: 80px;
-    width: 80px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+
+.icon.retour {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
     background: white;
     border-radius: 50%;
     display: flex;
@@ -78,6 +95,7 @@ h2 {
     cursor: pointer;
 }
 
+/* fin bouton retour*/
 .icon {
     width: 50px;
 }
@@ -96,7 +114,7 @@ h2 {
 .sous-titre {
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -137,7 +155,7 @@ h2 {
         font-size: 18px;
     }
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .image{
@@ -160,11 +178,16 @@ h2 {
         font-size: 18px;
     }
     
+    h2 {
+        font-size: 2rem;
+        margin-left: 35px;
+    }
+
     .image{
         width: 50px;
         height: 50px;
         float: right;
-        display: inline-block;
+        
     }  
 
     .text-section-1,
@@ -183,6 +206,7 @@ h2 {
     }
     h2 {
         font-size: 2rem;
+        margin-left: 35px;
     }
 
     .image{
@@ -199,13 +223,14 @@ h2 {
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 350px) {
     h1 {
         font-size: 12px;
         text-align: center; 
     }
     h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-left: 35px;
     }
     .text-section-1,
     .text-section-2,
@@ -222,32 +247,3 @@ h2 {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    .icon {
-        width: 18px;
-        height: 18px;
-    }
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4,
-    .text-section-5,
-    .text-section-6 {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .icon {
-        width: 14px;
-        height: 14px;
-    }
-    .text-section-1,
-    .text-section-2,
-    .text-section-3,
-    .text-section-4,
-    .text-section-5,
-    .text-section-6 {
-        font-size: 14px;
-    }
-}
