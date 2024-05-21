@@ -1,228 +1,290 @@
-*{
- margin: 0;
-}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #FFDAB9;
+ 
+ body {
   margin: 0; 
   padding: 0; 
-  text-decoration: none;
-  max-width: 800px;
-}
-
-header {
-  background-color: white;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Ajout de justification centrée */
-  text-align: center;
-}
-
-.container {
-  max-width: 800px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top:15px ;
-  padding: 10px;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
-}
-
-li{
-  list-style: none;
-}
-
-a{
-  color: #000000;
-  text-decoration: none;
-}
-
-h1 {
-  background-color: white;
-  color: #000000;
-  text-align: center;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0; 
-  padding: 0; 
-}
-
-.retour {
-  margin-top: 0px;
-  display: flex; 
-  align-items: center; 
-}
-
-.retour img {
-  width: 50px;
-  height: auto;
-}
-
-@media screen and (max-width: 600px) {
-  .retour img {
-      width: 40px;
-      padding-right: 10px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .retour img {
-      width: 20px;
-      padding-right: 10px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .retour img {
-      width: 20px;
-      padding-right: 10px;
-  }
-}
-
-
-.main-content p {
-  text-align: justify;
-  margin: auto;
-  margin-top: 5%;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-.logo{
-  display: flex;
-  align-items: center;
-  margin-top: 150px;
-  margin-left: 50px;
-}
-
-
-.logo_republique {
-  width: 100px;
-  height: 100px;
-  margin-right: 5px;
-  margin-top: 10px;
-  margin-top: auto;
-  margin-bottom: 20px;
-}
-.logo_ars {
-  width: 150px;
-  height: 100px;
-  margin-left: 5px;
-  margin-top: auto;
-  margin-bottom: 20px;
-}
-
-
-@media only screen and (max-width: 600px) {
+   font-family: Arial, sans-serif;
+   background-color: #FFDAB9;
+ }
+ 
+ header {
+   background-color: white;
+   padding: 20px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center; /* Ajout de justification centrée */
+   text-align: center;
+ }
+ 
+ .container {
+   max-width: 800px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top:15px ;
+   padding: 10px;
+   text-align: center;
+   background-color: white;
+   border-radius: 10px;
+ }
+ 
+ li{
+   list-style: none;
+ }
+ 
+ a{
+   color: #000000;
+   text-decoration: none;
+ }
+ 
+ h1 {
+   background-color: white;
+   color: #000000;
+   text-align: center;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0; 
+   padding: 0; 
+ }
+ 
+ .retour {
+   margin-top: 0px;
+   display: flex; 
+   align-items: center; 
+ }
+ 
+ .retour img {
+   width: 50px;
+   height: auto;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .retour img {
+       width: 40px;
+       padding-right: 10px;
+   }
+ }
+ 
+ @media screen and (max-width: 400px) {
+   .retour img {
+       width: 20px;
+       padding-right: 10px;
+   }
+ }
+ 
+ @media screen and (max-width: 300px) {
+   .retour img {
+       width: 20px;
+       padding-right: 10px;
+   }
+ }
+ 
+ 
+ .main-content p {
+   text-align: justify;
+   margin-top: 5%;
+   margin-left: 15px;
+ }
+ 
+ .logo{
+   display: flex;
+   align-items: center;
+   margin-top: 150px;
+   margin-left: 50px;
+ }
+ 
+ 
+ .logo_republique {
+   width: 100px;
+   height: 100px;
+   margin-right: 5px;
+   margin-top: 10px;
+   margin-top: auto;
+   margin-bottom: 20px;
+ }
+ .logo_ars {
+   width: 150px;
+   height: 100px;
+   margin-left: 5px;
+   margin-top: auto;
+   margin-bottom: 20px;
+ }
+ 
+  
+ @media only screen and (max-width: 1000px) {
   .logo {
     display: flex;
     align-items: center;
     margin-top: 50px;
   
   }
+
+  .logo_ars{
+   width:110px;
+   height: 100px;
+ }
+
+ .logo_republique{
+   width:110px;
+   height: 100px;
+ }
 }
 
 
-.menu-icon {
-  font-size: 24px;
-  cursor: pointer;
-  margin-right: 10px;
-}
+ @media only screen and (max-width: 600px) {
+   .logo {
+     display: flex;
+     align-items: center;
+     margin-top: 50px;
+   
+   }
 
-.menu {
-  display: none;
-  position: absolute;
-  text-decoration: none;
-  top: 100px;
-  margin-left:30px;
-  background-color: white;
-  width: 100%;
-  height: 100%;
+   .logo_ars{
+    width:110px;
+    height: 100px;
+  }
+
+  .logo_republique{
+    width:110px;
+    height: 100px;
+  }
+ }
  
-}
-
-.menu.active {
-  display: block;
-  text-decoration: none;
-}
-
-.menu-item {
-  text-align: center;
-  margin-right: 0;
-}
-
-.submenu {
-  display: none;
-  padding-left: 20px;
-  margin-bottom: 16px;
-  margin-top: 16px;
-  margin-left: 20px;
-}
-
-.submenu li{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.menu-item:hover .submenu {
-  display: block;
-}
-
-@media only screen and (max-width: 1200px) {
+ @media only screen and (max-width: 400px) {
   .logo {
-      font-size: 36px;
-  }
-}
-
-
-@media only screen and (max-width: 992px) {
-  .menu-icon {
-      font-size: 20px;
-  }
-
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
   
+  }
 
+  .logo_ars{
+    width:110px;
+    height: 100px;
+  }
+
+  .logo_republique{
+    width:110px;
+    height: 100px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-  h1 {
-      font-size: 24px;
-      height: auto;
+@media only screen and (max-width: 350px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
   }
 
-  .menu {
-      top: 60px;
-      padding: 5px;
+  .logo_ars{
+    width:80px;
+    height: 70px;
   }
 
-  .menu-item {
-      margin: 50px 0;
+  .logo_republique{
+    width:80px;
+    height: 70px;
   }
-
+}
+ 
+ .menu-icon {
+   font-size: 24px;
+   cursor: pointer;
+   margin-right: 10px;
+ }
+ 
+ .menu {
+   display: none;
+   position: absolute;
+   text-decoration: none;
+   top: 100px;
+   margin-left:30px;
+   background-color: white;
+   width: 100%;
+   height: 100%;
   
-
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-      font-size: 18px;
-      
-  }
-
-  .menu {
-      top: 60px;
-      padding: 5px;
-  }
-
-  .menu-item {
-      margin: 50px 0;
-  }
-
-  
-}
+ }
+ 
+ .menu.active {
+   display: block;
+   text-decoration: none;
+ }
+ 
+ .menu-item {
+   text-align: center;
+   margin-right: 0;
+ }
+ 
+ .submenu {
+   display: none;
+   padding-left: 20px;
+   margin-bottom: 16px;
+   margin-top: 16px;
+   margin-left: 20px;
+ }
+ 
+ .submenu li{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .menu-item:hover .submenu {
+   display: block;
+ }
+ 
+ @media only screen and (max-width: 1200px) {
+   .logo {
+       font-size: 36px;
+   }
+ }
+ 
+ 
+ @media only screen and (max-width: 992px) {
+   .menu-icon {
+       font-size: 20px;
+   }
+ 
+   
+ 
+ }
+ 
+ @media only screen and (max-width: 768px) {
+   h1 {
+       font-size: 24px;
+       height: auto;
+   }
+ 
+   .menu {
+       top: 60px;
+       padding: 5px;
+   }
+ 
+   .menu-item {
+       margin: 50px 0;
+   }
+ 
+   
+ 
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   h1 {
+       font-size: 18px;
+       
+   }
+ 
+   .menu {
+       top: 60px;
+       padding: 5px;
+   }
+ 
+   .menu-item {
+       margin: 50px 0;
+   }
+ 
+   
+ }
+ 
