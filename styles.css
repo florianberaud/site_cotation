@@ -20,12 +20,13 @@
  .container {
    max-width: 800px;
    margin-left: 20px;
+   margin-bottom: 10px;
    margin-right: 20px;
    margin-top:15px ;
    padding: 10px;
    text-align: center;
    background-color: white;
-   border-radius: 10px;
+   border-radius: 20px;
  }
  
  li{
@@ -82,13 +83,59 @@
    }
  }
  
- 
- .main-content p {
-   text-align: justify;
-   margin-top: 5%;
-   margin-left: 15px;
- }
- 
+ .container1 {
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 20px;
+}
+
+.main-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container1 {
+      width: 95%;
+      padding: 10px;
+  }
+  
+  .main-content p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+  }
+}
+
+@media (max-width: 400px) {
+  .container1 {
+      width: 100%;
+      padding: 10px;
+      margin-left: 5px;
+  }
+  
+  .main-content p {
+      font-size: 1rem;
+      line-height: 1.4;
+  }
+}
+
+@media (max-width: 350px) {
+  .container1 {
+      width: 100%;
+      padding: 10px;
+      margin-left: 2px;
+  }
+  
+  .main-content p {
+      font-size: 0.6rem;
+      line-height: 1.4;
+  }
+}
+
  .logo{
    display: flex;
    align-items: center;
@@ -163,7 +210,7 @@
 
   .logo_ars{
     width:110px;
-    height: 100px;
+    height: 90px;
   }
 
   .logo_republique{
@@ -181,7 +228,7 @@
 
   .logo_ars{
     width:80px;
-    height: 70px;
+    height: 60px;
   }
 
   .logo_republique{
@@ -201,7 +248,6 @@
    position: absolute;
    text-decoration: none;
    top: 100px;
-   margin-left:30px;
    background-color: white;
    width: 100%;
    height: 100%;
@@ -257,11 +303,11 @@
    h1 {
        font-size: 24px;
        height: auto;
+       
    }
  
    .menu {
        top: 60px;
-       padding: 5px;
    }
  
    .menu-item {
@@ -276,12 +322,11 @@
  @media only screen and (max-width: 600px) {
    h1 {
        font-size: 18px;
-       
+       margin-right: 20px;
    }
  
    .menu {
        top: 60px;
-       padding: 5px;
    }
  
    .menu-item {
@@ -291,4 +336,37 @@
  
    
  }
+
+ @media only screen and (max-width: 400px) {
+  h1 {
+      font-size: 17px;
+      margin-right: 20px;
+      text-align: center;
+      
+  }
+
+ 
+
+  .menu-item {
+      margin: 50px 0;
+      margin-right: 60px;
+  }
+
+  
+}
+@media only screen and (max-width: 350px) {
+  h1 {
+      font-size: 20px;
+      margin-right: 20px;
+  }
+
+
+  .menu-item {
+      margin: 50px 0;
+      margin-right: 60px;
+      font-size: 12px;
+  }
+
+  
+}
  
