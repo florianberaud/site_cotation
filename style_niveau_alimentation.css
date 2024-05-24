@@ -123,7 +123,7 @@ h2 {
     max-width: 1000px;
     margin-bottom: 20px;
     padding: 20px;
-    text-align: justify;
+    text-align: left;
     
 }
 
@@ -141,7 +141,7 @@ h2 {
 .text-section-3 p span,
 .text-section-4 p span  {
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -164,7 +164,7 @@ h2 {
     .text-section-3,
     .text-section-4 {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         display: block;
     }
 }
@@ -191,7 +191,7 @@ h2 {
     .text-section-3 p span,
     .text-section-4 p span {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     }
 
@@ -200,7 +200,7 @@ h2 {
     .text-section-3,
     .text-section-4 {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     }
 }
@@ -224,7 +224,7 @@ h2 {
     .text-section-3 p span,
     .text-section-4 p span{
         font-size: 11px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     
         
@@ -235,7 +235,7 @@ h2 {
     .text-section-3 ,
     .text-section-4 {
         font-size: 11px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     
         
@@ -263,7 +263,7 @@ h2 {
     .text-section-3,
     .text-section-4 {
         font-size: 12px;
-        text-align: justify;
+        text-align: left;
         padding: 5px;
     }
 }
