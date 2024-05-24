@@ -29,37 +29,6 @@ h1 {
     font-size: 15px;
 }
 
-.menu {
-    margin-top: 0px;
-    display: flex; 
-    align-items: center; 
-}
-
-.menu img {
-    width: 50px;
-    height: auto;
-}
-
-@media screen and (max-width: 600px) {
-    .menu img {
-        width: 40px;
-        padding-right: 10px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .menu img {
-        width: 20px;
-        padding-right: 10px;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .menu img {
-        width: 20px;
-        padding-right: 10px;
-    }
-}
 
 /*bouton retour*/
 
