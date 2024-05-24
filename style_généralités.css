@@ -151,7 +151,7 @@ h2 {
 .text-section-1 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -171,7 +171,7 @@ h2 {
 .text-section-2 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .text-section-3 {
@@ -189,7 +189,7 @@ h2 {
 .text-section-3 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .text-section-4 {
@@ -207,7 +207,7 @@ h2 {
 .text-section-4 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify; 
+    text-align: left; 
 }
 
 .container2 {
@@ -233,7 +233,7 @@ h2 {
 .text-section-5 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -253,7 +253,7 @@ h2 {
 .text-section-6 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .text-section-7 {
@@ -266,7 +266,7 @@ h2 {
 .text-section-7 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;
+    text-align: left;
 }
 
 .text-section-8 {
@@ -280,7 +280,7 @@ h2 {
 .text-section-8 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify; 
+    text-align: left; 
 }
 
 
@@ -294,7 +294,7 @@ h2 {
 .text-section-9 p {
     margin: 0; 
     font-size: 22px;
-    text-align: justify; 
+    text-align: left; 
 }
 
 .text-section-10 {
@@ -307,7 +307,7 @@ h2 {
 .text-section-10 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;  
+    text-align: left;  
 }
 
 .text-section-11 {
@@ -319,7 +319,7 @@ h2 {
 .text-section-11 img.image_tete {
     margin-right: 10px; 
     width: 50px; 
-    height: 65px;
+    height: auto;
 }
 
 .text-section-11 p {
@@ -336,7 +336,7 @@ h2 {
 .text-section-12 p {
     margin: 0;
     font-size: 22px;
-    text-align: justify;  
+    text-align: left;  
 }
 
 
@@ -349,7 +349,7 @@ h2 {
 .text-section-13 p {
     margin: 0; 
     font-size: 22px;
-    text-align: justify; 
+    text-align: left; 
 }
 
 
@@ -406,7 +406,7 @@ h2 {
     .text-section-13 p {
         margin: 0;
         font-size: 22px;
-        text-align: justify;
+        text-align: left;
     }
 
 
@@ -447,7 +447,7 @@ h2 {
     .text-section-13 p {
         margin: 0;
         font-size: 22px;
-        text-align: justify;
+        text-align: left;
     }
 }
 
@@ -476,7 +476,7 @@ h2 {
     .text-section-13 p { 
         margin: 0;
         font-size: 15px;
-        text-align: justify;
+        text-align: left;
     }
 }
 
