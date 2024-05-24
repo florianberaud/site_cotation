@@ -136,7 +136,7 @@ h4 {
     max-width: 1000px;
     margin-bottom: 20px;
     padding: 20px;
-    text-align: justify;
+    text-align: left;
     
 }
 
@@ -154,7 +154,7 @@ h4 {
 .text-section-3 p span,
 .text-section-4 p span  {
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -177,7 +177,7 @@ h4 {
     .text-section-3,
     .text-section-4 {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         display: block;
     }
 }
@@ -208,7 +208,7 @@ h4 {
     .text-section-7 p span,
     .text-section-8 p span {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     }
 
@@ -221,7 +221,7 @@ h4 {
     .text-section-7, 
     .text-section-8  {
         font-size: 14px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     }
 }
@@ -250,7 +250,7 @@ h4 {
     .text-section-7 p span,
     .text-section-8 p span{
         font-size: 11px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     
         
@@ -265,7 +265,7 @@ h4 {
     .text-section-7, 
     .text-section-8  {
         font-size: 11px;
-        text-align: justify;
+        text-align: left;
         margin: inherit;
     
         
@@ -293,7 +293,7 @@ h4 {
     .text-section-3,
     .text-section-4 {
         font-size: 12px;
-        text-align: justify;
+        text-align: left;
         padding: 5px;
     }
 }
