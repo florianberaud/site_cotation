@@ -14,7 +14,6 @@ header {
     background-color: white;
     padding: 20px;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center; /* Ajout de justification centrée */
     text-align: center;
@@ -518,7 +517,7 @@ h2 {
 
 @media screen and (max-width: 400px) {
     h1 {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
     h2 {
