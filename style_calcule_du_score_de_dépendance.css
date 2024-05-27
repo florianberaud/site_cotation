@@ -253,6 +253,10 @@ h2 {
     align-items: flex-start;
 }
 
+.large-text {
+    font-size: 1.5em; 
+}
+
 
 .text-section-1 {
     display: flex;
@@ -313,6 +317,7 @@ h2 {
     display: flex;
     justify-content: center; 
     margin-top: 20px;
+    margin-bottom:10px ;
     
 }
 
